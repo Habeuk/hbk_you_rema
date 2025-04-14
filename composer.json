@@ -1,0 +1,14 @@
+{
+    "name": "habeuk/hbk_you_rema",
+    "description": "module for you and rema",
+    "type": "drupal-custom-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kouwa stephane",
+            "email": "kksasteph888@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

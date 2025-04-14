@@ -1,0 +1,5 @@
+name: 'hbk_you_rema'
+type: module
+description: 'module for rema and you'
+package: Custom
+core_version_requirement: ^10 || ^11
