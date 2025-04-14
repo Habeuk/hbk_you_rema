@@ -1,6 +1,27 @@
 <?php
 
 /**
+ *
  * @file
  * Primary module hooks for hbk_you_rema module.
  */
+/**
+ * Implements hook_theme().
+ */
+function hbk_you_rema_theme($existing, $type, $theme, $path) {
+  return [
+    'hbk_you_rema_color_block' => [
+      'variables' => [
+        'color' => NULL,
+        'title' => NULL
+      ]
+    ],
+    'hbk_you_rema_bef_image_radios' => [
+      'render element' => 'element',
+      'preprocess functions' => [
+        'template_preprocess_hbk_you_rema_bef_image_radios'
+      ],
+      'file' => 'hbk_you_rema.theme.inc'
+    ]
+  ];
+}
