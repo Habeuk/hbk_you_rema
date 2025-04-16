@@ -1,2 +1,2 @@
-import "@stephane888/wbu-atomique/scss/drupal/modules/hbk_you_custom/hbk_you_custom_images_radios.scss";
+import "@stephane888/wbu-atomique/scss/drupal/modules/hbk_rema_custom/hbk_rema_custom_images_radios.scss";
 import "@stephane888/wbu-atomique/scss/drupal/modules/hbk_you_custom/hbk_you_custom_images_radios.js";
